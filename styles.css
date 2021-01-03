@@ -162,7 +162,7 @@ body{
 
 #meal-img{
     text-align: center;
-    width: 100%;
+    width: 80%;
     height: 350px;
     padding-top: 50px;
 }
@@ -195,7 +195,29 @@ body{
     margin-top: 20px;
     margin-bottom: 5px;
 }
+
+button{
+    font-size: x-large;
+    margin: 10px;
+    color: rgb(148, 36, 32);
+}
+
+button a{
+    text-decoration: none;
+}
 /*======= RESPONSIVE LAYOUT =======*/
+
+/*======= ORDER CONFIRMATION =======*/
+.body-order{
+    text-align: center;
+}
+.body-order h1{
+    padding-top: 60px;
+    text-align: center;
+}
+.body-order img{
+    width: auto;
+}
 
 @media only screen  and (min-width: 600px){
     #meals{
@@ -250,4 +272,6 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    
 }
